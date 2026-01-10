@@ -17,3 +17,4 @@ Pandas implementation for data science and machine learning workflow.
 - Creating new features
 - Encoding categorical variables
 - Scaling and normalization
+### 5. Pandas Profiler(y-data profiler)
