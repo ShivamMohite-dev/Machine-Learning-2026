@@ -28,4 +28,5 @@ GRADIENT DESCENT FROM SCRATCH
 5. ADDITIONAL LEARNING RESOURCES
    --> PDF containing detailed handwritten notes on Gradient Descent.
    --> difference between Convex v/s Concave function
-   --> Gifs showing how Gradient Descent will take steps 
+   --> Gifs showing how Gradient Descent will take steps
+    
