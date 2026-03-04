@@ -3,7 +3,7 @@
 A lightweight Python tool that detects whether an image is
 **steganographically altered** or **safe**.
 
-This project analyzes images and attempts to detect hidden data embedded
+This code analyzes images and attempts to detect hidden data embedded
 using common steganography techniques such as:
 
 -   **LSB (Least Significant Bit) Steganography**
@@ -16,7 +16,7 @@ potential hidden payloads.
 
 ------------------------------------------------------------------------
 
-# Project Overview
+# Overview
 
 Steganography is a technique used to hide secret information inside
 digital media such as images.
@@ -27,7 +27,7 @@ While it has legitimate uses, it is also commonly used in:
 -   Data exfiltration
 -   Covert messaging
 
-This project provides a **basic steganography detection mechanism** that
+This python file provides a **basic steganography detection code** that
 can flag suspicious images by analyzing:
 
 -   Bit-level patterns in RGB images
@@ -54,19 +54,7 @@ Output:
 or
 
     Suspicious! Possible steganography detected
-
-------------------------------------------------------------------------
-
-# Project Structure
-
-    steganography-detector/
-    │
-    ├── stego_detector.py      # Main detection script
-    ├── README.md
-    ├── samples/
-    │   ├── safe_image.png
-    │   └── steg_image.png
-
+    
 ------------------------------------------------------------------------
 
 # How the Detection Works
@@ -109,42 +97,6 @@ The image may contain steganographic artifacts from algorithms such as:
 -   J-UNIWARD
 -   JMiPOD
 -   UERD
-
-------------------------------------------------------------------------
-
-# Installation
-
-Clone the repository:
-
-``` bash
-git clone https://github.com/yourusername/steganography-detector.git
-cd steganography-detector
-```
-
-Install dependencies:
-
-``` bash
-pip install numpy pillow opencv-python
-```
-
-------------------------------------------------------------------------
-
-# Usage
-
-## Detect Steganography
-
-``` python
-result = decode("image.png")
-print(result)
-```
-
-Example output:
-
-    Suspicious! Might contain hidden embeddings
-
-or
-
-    Safe!
 
 ------------------------------------------------------------------------
 
@@ -192,35 +144,6 @@ Professional steganalysis tools use:
 -   Rich Models
 -   Deep Neural Networks
 
-------------------------------------------------------------------------
-
-# Future Improvements
-
-Possible improvements include:
-
--   CNN-based steganography detection
--   Rich Model feature extraction
--   RS Analysis implementation
--   Chi-Square attack
--   Support for more image formats
--   Batch image analysis
--   GUI interface
-
-------------------------------------------------------------------------
-
-# Applications
-
--   Cybersecurity research
--   Digital forensics
--   Malware analysis
--   Academic research
--   Steganography detection studies
-
-------------------------------------------------------------------------
-
-# License
-
-This project is released under the **MIT License**.
 
 ------------------------------------------------------------------------
 
