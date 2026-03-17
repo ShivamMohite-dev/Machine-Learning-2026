@@ -1,6 +1,0 @@
-- Simple Linear Regression
-- Multiple Linear Regression
-- Polynomial Linear Regression
-- Regression from scratch
-- Regression using Gradient Descent
-- Hand-Written notes
